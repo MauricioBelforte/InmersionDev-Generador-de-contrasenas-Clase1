@@ -14,6 +14,8 @@ let boton = document.getElementById("generar")
 // Traemos el elemento que esta en el input con id contrasena
 let inputContrasena = document.getElementById("contrasena")
 
+// Traemos el elemento que esta en el boton con id limpiar
+let botonLimpiar = document.getElementById("limpiar")
 
 
 
@@ -60,6 +62,13 @@ function generar() {
 
 
 
+
+}
+
+function limpiar() {
+
+    cantidad.value = '';
+    inputContrasena.value = '';
 
 }
 
