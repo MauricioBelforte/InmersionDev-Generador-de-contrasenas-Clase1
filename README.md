@@ -1,8 +1,6 @@
 # InmersionDev-Generador-de-contrasenas-Clase1
 
 
-
-
 # Clase 01 - Generador de Contraseñas
 
 ## Links, Consejos y Apuntes de la Clase
@@ -70,3 +68,6 @@ En este **AluraMás** te enseñaremos el paso a paso para subir y compartir tu p
 Entra a nuestra comunidad en **Discord** para conectar con el grupo, resolver dudas en tiempo real y compartir tus avances y proyectos.
 
 ¡Ahora solo tienes que guardar tu proyecto y compartir el enlace etiquetando a **Alura Latam** en las redes sociales con el hashtag **#InmersionDevAlura**!
+
+
+
