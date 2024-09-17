@@ -1,35 +1,39 @@
-# InmersionDev-Generador-de-contrasenas-Clase1
+# Alura Latam Inmersion Dev con JavaScript
 
 
-# Clase 01 - Generador de Contraseñas
-
-## Links, Consejos y Apuntes de la Clase
+## Clase 01 - Generador de Contraseñas
 
 ### Generador de Contraseñas
 
-¡Hola, estimado(a) estudiante! ¡Te damos la bienvenida a nuestra primera clase de la **Inmersión Dev**!
-
 A través del lenguaje **JavaScript**, vamos a crear un generador de contraseñas, ¡donde podrás generar diferentes tipos de contraseñas aleatorias!
+
+[**Clase grabada en Youtube**](https://www.youtube.com/watch?v=MhUQNIJ7oHg)
+
+
+
+## Links, Consejos y Apuntes de la Clase
+
+
 
 ## Preparación del Entorno de Desarrollo
 
-- **Conociendo Visual Studio Code**
-  - Visual Studio Code - Instalación
-  - Visual Studio Code - Versión Online
-- **GitHub: Tu repositorio de código en la nube**
-  - GitHub
+- [**Conociendo Visual Studio Code**](https://www.youtube.com/watch?v=dp_A8SrvZRM)
+- [**Visual Studio Code - Instalación**](https://code.visualstudio.com/download)
+- [**Visual Studio Code - Versión Online**](https://vscode.dev/)
+- [**GitHub: Tu repositorio de código en la nube**](https://www.youtube.com/watch?v=7XOF5tnoJHI)
+- [**GitHub**](https://github.com/)
 
 ## Enlace del Proyecto Base
 
 En este programa, nos enfocamos en las principales herramientas de cualquier lenguaje de programación: **variables**, **consola**, **funciones**, **condicionales** y **bucles**. Para seguir la clase paso a paso, descarga el Proyecto Base.
 
-Haz clic aquí.
+[Haz clic aquí](https://github.com/alura-es-cursos/inmersion-dev-aula1/archive/refs/heads/Proyecto-Base.zip)
 
 Cadena de caracteres utilizada en el aula para construir la contraseña: `'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'`.
 
 ## Guía de la Inmersión Dev con JavaScript
 
-Visita la Guía de la Inmersión Dev con JavaScript para estar al tanto de los conceptos, consejos sobre la Inmersión y demás informaciones importantes.
+Visita la [Guía de la Inmersión Dev con JavaScript](https://www.notion.so/grupoalura/Gu-a-de-la-Inmersi-n-Dev-con-Javascript-a9f43b07c60d4c67b75f434d28def385) para estar al tanto de los conceptos, consejos sobre la Inmersión y demás informaciones importantes.
 
 ## Contenido Detallado de Esta Clase
 
@@ -53,19 +57,19 @@ Tendremos dos mentorías con plazas limitadas, mantente atento a nuestras comuni
 
 ## TechGuide
 
-Para ayudarte en tu jornada de aprendizaje, Alura ha creado el **TechGuide**, una guía de carreras que tiene como objetivo dirigir a los estudiantes con las principales tecnologías demandadas por el mercado, con nuestras sugerencias y opiniones.
+Para ayudarte en tu jornada de aprendizaje, Alura ha creado el [**TechGuide**](https://techguide.sh/es/), una guía de carreras que tiene como objetivo dirigir a los estudiantes con las principales tecnologías demandadas por el mercado, con nuestras sugerencias y opiniones.
 
 ## Contenido Extra
 
-- JavaScript según la documentación
-- ¿Qué es la lógica de programación y cómo aplicarla?
-- ¿Empezar a programar es con JavaScript?
+- [JavaScript según la documentación](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [¿Qué es la lógica de programación y cómo aplicarla?](https://www.youtube.com/watch?v=3W983Q2NzRI)
+- [¿Empezar a programar es con JavaScript?](https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript)
 
 ## Cómo Compartir tu Proyecto
 
-En este **AluraMás** te enseñaremos el paso a paso para subir y compartir tu proyecto en GitHub: Tu repositorio de código en la nube.
+En este **AluraMás** te enseñaremos el paso a paso para subir y compartir tu proyecto en [GitHub: Tu repositorio de código en la nube](https://www.youtube.com/watch?v=7XOF5tnoJHI).
 
-Entra a nuestra comunidad en **Discord** para conectar con el grupo, resolver dudas en tiempo real y compartir tus avances y proyectos.
+Entra a nuestra comunidad en [**Discord**](https://discord.gg/v8c4SG7ztR) para conectar con el grupo, resolver dudas en tiempo real y compartir tus avances y proyectos.
 
 ¡Ahora solo tienes que guardar tu proyecto y compartir el enlace etiquetando a **Alura Latam** en las redes sociales con el hashtag **#InmersionDevAlura**!
 
