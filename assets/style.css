@@ -79,8 +79,8 @@ h1 {
 .container__campo {
     display: flex;
     align-items: center;  
-    margin-bottom: 12px;
-    margin: 30px;
+    margin-top: 20px;
+    border-radius: 50px;
     gap: 2rem;  
 }
 
@@ -128,7 +128,7 @@ h1 {
     background-color: #FFF;
     border: none;
     color: #1875E8;
-    margin: 50px;
+    margin:20px;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
@@ -136,4 +136,30 @@ h1 {
 }
 
 
+.container__elementos{
+    display: block;
+    width: 100%;
+    align-items: center;  
+    margin-bottom: 1px;
+    margin: 10px;
+    padding: 10px;
+    gap: 2rem;  
+    border-radius: 16px;
+    
+}
 
+
+
+
+p {
+    width: 100%; 
+    
+    color: #d6d6d6;
+    
+    border: none;
+    margin: 0 auto;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
