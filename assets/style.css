@@ -3,32 +3,42 @@
     margin: 0;
     padding: 0;
     color: white;
+
 }
 
+html {
+    font-size: 16px;
+    /* Esto hace que 1rem = 16px */
+}
+
+
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%); 
-    height: 100vh;
-    display: flex; 
+    background: linear-gradient(#041832 33.33%, #041832 66.67%);
+    /* height: 100vh; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    
+
+
+
 }
 
 body::before {
-    background-image: url("img/candado.png");
-    background-repeat: no-repeat;
+    background-image: url(img/candado.png);
+    background-repeat: repeat-y;
     background-position: right;
-    background-size: cover;
+    background-size: contain;
     content: "";
     display: block;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 130%;
     opacity: 0.4;
+
 }
 
 .container {
-    width: 80%;
+    width: 95vw;
     min-height: 50vh;
     display: flex;
     align-items: center;
@@ -40,6 +50,8 @@ body::before {
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
+    margin: 5vw;
+
 }
 
 .container__contenido {
@@ -51,24 +63,26 @@ body::before {
 
 .container__informacion {
     flex: 1;
-    padding: 3rem;
-    
+    padding: 5vw;
+
+
+
 }
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
-    padding: 2rem;
+    padding: 2vw;
 }
 
 .container__texto {
     margin: 12px 0;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .container__texto-azul {
@@ -78,88 +92,120 @@ h1 {
 
 .container__campo {
     display: flex;
-    align-items: center;  
-    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vw;
     border-radius: 50px;
-    gap: 2rem;  
+    gap: 1rem;
 }
 
 .texto__parrafo {
+    display: flex;
     color: #FFF;
     font-family: 'Inter';
-    font-size: 32px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 10px;  
+    margin-left: 10px;
+    flex-grow: 0;
+    padding: 2vw;
+
+
+}
+
+.texto__parrafo p {
+    margin-right: 20px;
+    font-size: 1.2rem;
 }
 
 .container__input {
-    width: 148px;
-    height: 72px;
+    width: 80px;
+    height: 50px;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
     color: #535353;
-    padding: 2rem;
-    font-size: 24px;
+    padding: 2vw;
+    font-size: 1rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
-    
+    /* max-width: 50%; */
+
+
+
 }
 
-.boton{
+.botones {
+    flex-grow: 4;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+padding: 0 10% 0 0;
+
+}
+
+.boton {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: none;
     background-color: #1875E8;
-    padding: 1rem 1.5rem;
+    padding: 0 10px 0 10px;
+    margin: 0 5%;
     border-radius: 16px;
-    width: 243px;
-    height: 72px;
+    max-width: 150px;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 50px;
     box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
     cursor: pointer;
+
 }
 
 .container__contrasena {
-    width: 496px;
+    width: 100%;
     height: 72px;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
     color: #1875E8;
-    margin:20px;
+    margin: 20px;
     padding: 2rem;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
 
 
-.container__elementos{
+.container__elementos {
     display: block;
     width: 100%;
-    align-items: center;  
+    align-items: center;
     margin-bottom: 1px;
-    margin: 10px;
-    padding: 10px;
-    gap: 2rem;  
+    margin: 1vw;
+    padding: 1vw;
+    gap: 2rem;
     border-radius: 16px;
-    
+
 }
 
 
 
 
 p {
-    width: 100%; 
-    
+    width: 100%;
+
     color: #d6d6d6;
-    
+    justify-content: center;
+    align-content: center;
     border: none;
     margin: 0 auto;
     padding: 1%;
-    font-size: 20px;
+    font-size: 0.8rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
