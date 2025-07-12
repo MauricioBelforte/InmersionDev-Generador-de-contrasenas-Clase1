@@ -77,7 +77,14 @@ h1 {
     line-height: 100%;
     padding: 2vw;
 }
-
+h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 1rem 0;
+}
 .container__texto {
     margin: 12px 0;
     display: flex;
@@ -208,4 +215,185 @@ p {
     font-size: 0.8rem;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+}
+
+@media (min-width: 768px) {
+    
+
+    body {
+        background: linear-gradient(#041832 33.33%, #041832 66.67%);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    body::before {
+        background-image: url(img/candado.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:cover;  
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+
+    }
+
+    .container {
+        width: 95vw;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px;
+        border: 1px solid #1875E8;
+        box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+        background-image: url("img/Ruido.png");
+        background-size: 100% 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 2vw;
+
+    }
+
+    .container__contenido {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .container__informacion {
+        flex: 1;
+        padding: 1vw 5vw 1vw 5vw;
+
+
+
+    }
+
+    h1 {
+        font-size: 4rem;
+        padding: 0.5vw;
+    }
+
+    .container__texto {
+        margin: 12px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container__texto-azul {
+        color: #1875E8;
+        display: block;
+    }
+
+    .container__campo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0vw;
+        border-radius: 50px;
+        gap: 0rem;
+    }
+
+    .texto__parrafo {
+        display: flex;
+
+        margin-left: 10px;
+        flex-grow: 0;
+        padding: 2vw;
+
+
+    }
+
+    .texto__parrafo p {
+        margin-right: 20px;
+        font-size: 1.5rem;
+    }
+
+    .container__input {
+        width: 150px;
+        height: 60px;
+        padding: 2vw;
+        font-size: 1.5rem;
+        /* max-width: 50%; */
+
+
+
+    }
+
+    .botones {
+        flex-grow: 4;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+
+    padding: 0 10% 0 0;
+
+    }
+
+    .boton {
+
+        font-size: 1.2rem;
+
+        padding: 0 10px 0 10px;
+        margin: 0 5%;
+        max-width: 200px;
+        flex-grow: 1;
+        flex-basis: 0;
+        height: 60px;
+    }
+
+    .container__contrasena {
+        width: 100%;
+        height: 72px;
+        border-radius: 16px;
+
+        margin: 20px;
+        padding: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+    }
+
+
+    .container__elementos {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 1px;
+        margin: 1vh;
+        padding: 1vh;
+        gap: 1rem;
+        border-radius: 16px;
+
+    }
+
+
+
+
+    p {
+        width: 100%;
+
+
+        justify-content: center;
+        align-content: center;
+        border: none;
+        margin: 0 auto;
+        padding: 8px;
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+
 }

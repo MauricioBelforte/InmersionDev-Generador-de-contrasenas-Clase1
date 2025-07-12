@@ -63,7 +63,7 @@ function generar() {
         textoFuerza.innerHTML = `<p>${resultado.fuerza}</p>`;
         if (resultado.sugerencias.length > 0) {
 
-            textoSugerencias.innerHTML = `<p>Sugerencias para mejorar la contraseña:</p>`;
+            textoSugerencias.innerHTML = `<h2>Sugerencias para mejorar la contraseña:</h2>`;
             resultado.sugerencias.forEach(sugerencia => {
                 textoSugerencias.innerHTML = textoSugerencias.innerHTML + `<p>- ${sugerencia}</p>`
 
